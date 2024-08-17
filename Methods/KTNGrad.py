@@ -9,7 +9,7 @@ from sklearn.utils.validation import check_X_y, check_array, check_is_fitted
 class KTNGrad(RegressorMixin, BaseEstimator):
     """
     Implements a regressor based on kernel ridge regression where the kernel is the Gaussian kernel augmented
-    with its derivative w.r.t. all the variables and a trace norm penalty on the sample covariance matrix of
+    with its derivative w.r.t. all the variables and a trace norm penalty on the sample matrix of
     gradients to improve feature learning.
     """
 
