@@ -3,7 +3,7 @@
 ## What is this project for?
 This is the companion code to the second chapter of the PhD thesis of Follain, B, which will be available online in the fourth quarter of 2024.
 It contains the estimator **KTNGrad** introduced in the previously referred chapter, the code to run the experiments from the chapter
-and the results of said experiments. **KTNGrad* is a method for non-parametric regression with linear feature learning, 
+and the results of said experiments. **KTNGrad** is a method for non-parametric regression with linear feature learning, 
 which consists in regularised empirical risk minimisation in RKHS with the trace norm of the sample covariance matrix of gradients as the penalty. 
 See the thesis for more details. The method is available through the class KTNGrad in '/Methods/KTNGrad.py'. It is easy to use thanks to compatibility with Scikit-learn. 
 The code is maintained by Bertille Follain (https://bertillefollain.netlify.app/, email address available on website). Do not 
