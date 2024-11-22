@@ -1,7 +1,7 @@
 # KTNGrad
 
 ## What is this project for?
-This is the companion code to the second chapter of the PhD thesis of Follain, B, which will be available online in the fourth quarter of 2024.
+This is the companion code to the second chapter of the PhD thesis of Bertille Follain, which is available here: https://bertillefollain.netlify.app/publication/phd/PhD.pdf
 It contains the estimator **KTNGrad** introduced in the previously referred chapter, the code to run the experiments from the chapter
 and the results of said experiments. **KTNGrad** is a method for non-parametric regression with linear feature learning, 
 which consists in regularised empirical risk minimisation in RKHS with the trace norm of the sample matrix of gradients as the penalty. 
